@@ -1,0 +1,65 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: rgba(0, 17, 255, 0.457);
+    }
+
+    .chat{
+        max-width: 700px;
+        margin: auto;
+        border: 8px solid rgb(38, 255, 0);
+        box-shadow: 0 0 8px rgb(255, 0, 0);
+        height: 500px;
+        border-radius: 10px;
+        overflow-y: auto;
+        background-color: hsl(0, 100%, 98%);
+    }
+    form{
+        max-width: 700px;
+        margin: auto;
+        display: flex;
+        gap: 2rem;
+    }
+
+    form input{
+        width: 80%;
+        padding: 10px;
+        box-shadow: 13px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-radius: 8px;
+    }
+    form button{
+        width: 20%;
+        background-color: rgb(0, 247, 255);
+        font-weight: bolder;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+    }
+    .chat h3{
+        display: inline-block;
+        padding: 8px;
+        background-color:rgb(0, 255, 238);
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-top: 11px;
+        position: relative;
+        
+    }
+    .chat h3::after{
+        content: "";
+        width: 20px;
+        height: 8px;
+        background-color: rgb(210, 54, 73);
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+        border-top-left-radius: 18px;
+    }

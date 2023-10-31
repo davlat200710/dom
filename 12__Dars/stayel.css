@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 191, 255);
+}
+
+.form{
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+form input{
+    width: 70%;
+    padding: 0.5rem;
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+}
+form button{
+    width: 30;
+    padding: 0.5px;
+    background-color: rgb(0, 255, 60);
+}
+.list{
+    max-width: 500px;
+    margin: 20px auto;
+    list-style: none;
+    padding: 1rem;
+    border-radius: 10px;
+    /* box-shadow: 0 0 8px rgb(0, 21, 255); */
+}
+.list li{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow: 0 0 5px hwb(0 0% 0%);
+    padding: 1rem;
+    border-radius: 8px;
+}
